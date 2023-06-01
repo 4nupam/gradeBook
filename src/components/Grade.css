@@ -1,0 +1,43 @@
+header{
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    gap:10px;
+    font-weight: 800;
+    color: #788898;
+}
+header span{
+    color: #9B51E0;
+}
+.grade_book_desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:220px;
+    padding: 32px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 140px;
+}
+.rightPart, .left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.right_header, .intro{
+    font-weight: 800;
+font-size: 18px;
+color: #788898;
+}
+.right_desc, .date{
+    font-weight:600;
+    color: #333333;
+    font-size: 13px;   
+}
